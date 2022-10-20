@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="JspBasic" path="/JspBasic" reloadable="true" source="org.eclipse.jst.jee.server:JspBasic"/><Context docBase="ELWeb" path="/ELWeb" reloadable="true" source="org.eclipse.jst.jee.server:ELWeb"/><Context docBase="RemoteWeb" path="/ezen" reloadable="true" source="org.eclipse.jst.jee.server:RemoteWeb"/><Context docBase="SeperateWeb" path="/ezensep" reloadable="true" source="org.eclipse.jst.jee.server:SeperateWeb"/><Context docBase="SignUpWeb" path="/ezensignup" reloadable="true" source="org.eclipse.jst.jee.server:SignUpWeb"/><Context docBase="Jstlweb" path="/Jstlweb" reloadable="true" source="org.eclipse.jst.jee.server:Jstlweb"/><Context docBase="JspScopeWeb" path="/JspScopeWeb" reloadable="true" source="org.eclipse.jst.jee.server:JspScopeWeb"/><Context docBase="Jstl01" path="/Jstl01" reloadable="true" source="org.eclipse.jst.jee.server:Jstl01"/><Context docBase="CookieWeb" path="/CookieWeb" reloadable="true" source="org.eclipse.jst.jee.server:CookieWeb"/></Host>
+      <Context docBase="Jstl01" path="/Jstl01" reloadable="true" source="org.eclipse.jst.jee.server:Jstl01"/></Host>
     </Engine>
   </Service>
 </Server>

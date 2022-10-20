@@ -1,4 +1,4 @@
-<%@page import="kr.co.ezenac.utils.Person"%>
+<%@page import="kr.co.ezenac.Person"%>
 <%@page import="java.util.Date"%>
 <%@page import="javax.xml.crypto.Data"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"

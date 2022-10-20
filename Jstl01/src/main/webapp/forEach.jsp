@@ -40,6 +40,13 @@
 		<!-- 위의 경우 sum+i의 결과값을 sum의 변수에 넣어주는 것을 확인할 수 있다. -->
 	</c:forEach>
 	Result = ${sum }
-
+	
+	<h4>1에서 100까지 정수 중 홀수의 합</h4>
+	<c:forEach begin="1" end="100" var="j">
+		<c:if test="${j mod 2 ne 0}">
+			<c:set var="sum2" value="${sum2 + j }"/>
+		</c:if>
+	</c:forEach>
+		1에서 100까지 정수 중 홀수의 합은? ${sum2 }
 </body>
 </html>
