@@ -16,7 +16,7 @@
 </head>
 <body>
 	<form action="">
-		<h3 id="title">Login</h3>
+		<h3 id="title">Logins</h3>
 	</form>
 </body>
 </html>
