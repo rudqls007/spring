@@ -47,7 +47,14 @@ public class LoginController {
 		//2-3-1. 쿠키를 삭제
 		
 		//2-3-2. 응답 헤더에 저장
-		
+		if(rememberId) {
+			Cookie cookie = new Cookie("id", id);
+			response.addCookie(cookie);
+		}else {
+			Cookie cookie = new Cookie("id", id);
+			cookie.setMaxAge(0);
+			response.addCookie(cookie);
+		}
 		
 		return "redirect:/";
 	}
