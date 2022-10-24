@@ -22,7 +22,8 @@ public class LoginController {
 	}
 
 	@PostMapping("/login")
-	public String login(String id, String pwd, boolean rememberId, HttpServletRequest request,
+	public String login(String id, String pwd, boolean rememberId, String toURL, 
+			HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
 //		System.out.println("id = " + id);
@@ -57,8 +58,10 @@ public class LoginController {
 		// 세션 객체에 id를 저장
 		session.setAttribute("id", id);
 		
+		//4. 뷰 이동
+		toURL = toURL == null || toURL.equals("") ? "/" : toURL;
 		
-		return "redirect:/";
+		return "redirect:" + toURL;
 	}
 
 	private boolean loginCheck(String id, String pwd) {
