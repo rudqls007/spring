@@ -13,7 +13,7 @@ public class SpringDITest {
 		 ApplicationContext ac = new GenericXmlApplicationContext("config.xml");
 		Car car = (Car)ac.getBean("car");							// by Name
 		Car car2 = (Car)ac.getBean("car");							// by Name
-		Car car3 = (Car)ac.getBean("car");							// by Name
+		Car car3 = (Car)ac.getBean("car", Car.class);
 		Engine engine = (Engine)ac.getBean("engine");				// by Name
 		Door door = (Door) ac.getBean("door");						// by Name
 		 
