@@ -8,17 +8,25 @@ import java.sql.SQLException;
 import javax.sql.DataSource;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-public class DBConnectionTest3Test {
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/**/root-context.xml")
+public class DBConnectionTest3Test2 {
+
+		@Autowired
+		DataSource ds;
+	
 		@Test
 		public void springJdbcConnectiontest() throws SQLException{
 			
-			ApplicationContext ac = new GenericXmlApplicationContext("file:src/main/webapp/WEB-INF/spring/**/root-context.xml");
-			DataSource ds = ac.getBean(DataSource.class);
-			
+
 			Connection conn =ds.getConnection();
 			
 			assertTrue(conn!=null);
