@@ -40,4 +40,5 @@ public class HomeController {
 	public String ezen() {
 		return "index";
 	}
+	
 }
