@@ -3,21 +3,31 @@ package kr.co.work;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@Controller("/register")
+import jakarta.validation.Valid;
+
+@Controller
+@RequestMapping("/register")
 public class RegisterController {
 	
 	@Autowired
 	UserDao  userDao;
-	
+	final int FAIL = 0;
 	
 //	 @RequestMapping 대신에 @GetMapping, @PostMapping 사용 가능하다.  
 //   @RequestMapping(value = "/register/add2", Method = {RequestMethod.GET, RequestMethod.POST)
@@ -27,14 +37,30 @@ public class RegisterController {
       return "registerForm"; // /WEB-INF/views/registerForm.jsp
    }
    
+   @InitBinder
+   public void registerValidate(WebDataBinder binder) {
+	   SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+	   binder.registerCustomEditor(Date.class, new CustomDateEditor(df, false) );
+	   // UserValidator를 WebDatebinder의 로컬 validator로 등록(수동)	
+	   binder.setValidator(new UserValidator()); 		
+   }
+   
 //   @RequestMapping(value = "/register/save2")
    @PostMapping("/add")
-   public String save(User user, Model m) throws UnsupportedEncodingException {
-      
-		   if(isValid(user)) {
-			   String msg = URLEncoder.encode("id를 잘못입력했습니다.", "utf-8");
-		   }
-	   return "registerinfo"; // /WEB-INF/views/registerInfo.jsp
+   public String save(@Valid User user, BindingResult result ,Model m) throws UnsupportedEncodingException {
+      //1. 유효성 검사 => 관심사로 분리
+	   System.out.println("result = " + result);
+	   System.out.println("user = " + user);
+	   
+	  //2. DB에 새 회원 정보를 저장한다.
+	  //User 객체 검증한 결과 에러가 있으면, registerForm을 이용해서 에러를 보여줘야 한다.
+	   if(!result.hasErrors()) {
+		   int rowCnt = userDao.insertUser(user);
+		   
+		   if(rowCnt != FAIL) return "registerinfo";
+	   }
+	   
+	   return "registerForm"; // /WEB-INF/views/registerInfo.jsp
    }
 
 private boolean isValid(User user) {
