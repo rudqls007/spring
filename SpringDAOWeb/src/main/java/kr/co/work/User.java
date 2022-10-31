@@ -11,6 +11,26 @@ public class User {
 	private String sns;
 	private Date Reg_date;
 	
+	
+	
+	 public User() {
+
+	 
+	 }
+	
+	
+	public User(String id, String pwd, String name, String email, Date birth, String sns, Date reg_date) {
+		super();
+		this.id = id;
+		this.pwd = pwd;
+		this.name = name;
+		this.email = email;
+		this.birth = birth;
+		this.sns = sns;
+		Reg_date = reg_date;
+	}
+
+
 	public String getId() {
 		return id;
 	}
