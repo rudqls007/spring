@@ -21,9 +21,10 @@ public class UserValidator implements Validator {
 		
 		User user = (User)target;
 		String id = user.getId();
-		if(id == null || "".equals(id.trim())) {
-			errors.rejectValue("id", "required");
-		}
+		/*
+		 * if(id == null || "".equals(id.trim())) { errors.rejectValue("id",
+		 * "required"); }
+		 */
 		
 		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "id", "required");
 		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "pwd", "required");
