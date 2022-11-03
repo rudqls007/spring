@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class BoardDto {
 
 	private Integer bno;
