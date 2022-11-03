@@ -5,6 +5,6 @@
   
   <configuration>
   	<typeAliases>
-  		<typeAlias alias="BoardDto" type="kr.co.heart.damain.BoardDto" />
+  		<typeAlias alias="BoardDto" type="kr.co.heart.domain.BoardDto" />
   	</typeAliases>
   </configuration>
