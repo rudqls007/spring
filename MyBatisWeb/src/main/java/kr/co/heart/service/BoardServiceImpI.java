@@ -20,4 +20,10 @@ public class BoardServiceImpI implements BoardService {
 		// TODO Auto-generated method stub
 		return boardDao.selectpage(map);
 	}
+
+	@Override
+	public int getCount() throws Exception {
+		// TODO Auto-generated method stub
+		return boardDao.count();
+	}
 }
