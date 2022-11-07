@@ -27,5 +27,13 @@ public class BoardDaoImplTest {
 		System.out.println("boardDto = " + boardDto );
 		assertTrue(boardDto.getBno().equals(1));
 		
+		boardDao.deleteAll();
+		boardDto = new BoardDto("Pioneering", "Ready for Action", "ezen");
+		boardDao.insert(boardDto);
+		
+		boardDto =  boardDao.select(2);
+		System.out.println("boardDto = " + boardDto );
+		assertTrue(boardDto.getBno().equals(2));
+		
 	}
 }

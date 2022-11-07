@@ -19,4 +19,22 @@ public class BoardDaoImpl implements BoardDao {
 		return session.selectOne(namespace + "select", bno);
 	}
 
+	@Override
+	public int insert(BoardDto dto) throws Exception {
+		// TODO Auto-generated method stub
+		return session.insert(namespace + "insert", dto);
+	}
+
+	@Override
+	public int count() throws Exception {
+		// TODO Auto-generated method stub
+		return session.selectOne(namespace + "count");
+	}
+
+	@Override
+	public int deleteAll() throws Exception {
+		// TODO Auto-generated method stub
+		return session.delete(namespace + "deleteALL");
+	}
+
 }
