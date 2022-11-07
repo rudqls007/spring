@@ -1,5 +1,8 @@
 package kr.co.heart.dao;
 
+import java.util.List;
+import java.util.Map;
+
 import kr.co.heart.domain.BoardDto;
 
 public interface BoardDao {
@@ -9,5 +12,8 @@ public interface BoardDao {
 	int insert(BoardDto dto) throws Exception;
 	int	count() throws Exception;
 	int deleteAll() throws Exception;
+	
+	
+	List<BoardDto> selectpage(Map map) throws Exception;
 	
 }
