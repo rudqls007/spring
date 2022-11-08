@@ -24,7 +24,31 @@ public class BoardController {
 
 	@Autowired
 	BoardService boardService;
-
+	
+	public String remove(Integer bno, Integer page, Integer pageSize ) {
+		return "redirect:/board/list";
+	}
+	
+	@GetMapping("/read")
+	public String read(Integer bno, Integer page, Integer pageSize, Model m) {
+		try {
+		BoardDto boardDto =	boardService.read(bno);
+//		m.addAttribute("boardDto", boardDto);		// 아래의 코드와 같다.
+		m.addAttribute(boardDto);
+		
+		m.addAttribute("page", page);
+		m.addAttribute("pageSize", pageSize);
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+			return "redirect:/board/list";
+		}
+	
+		return "board";
+	}
+	
+	
+	
 	@GetMapping("/list")
 	public String list(@RequestParam(defaultValue = "1") Integer page,
 					   @RequestParam(defaultValue = "10")Integer pageSize,
@@ -60,6 +84,9 @@ public class BoardController {
 			List<BoardDto> list = boardService.getPage(map);
 			m.addAttribute("list", list);
 			m.addAttribute("pr", pageResolver);
+			
+			m.addAttribute("page", page);
+			m.addAttribute("pageSize", pageSize);
 			
 		} catch (Exception e) {
 			e.printStackTrace();

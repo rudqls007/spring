@@ -21,7 +21,8 @@
 
 	<insert id="insert" parameterType="BoardDto">
 		INSERT INTO t_board
-		(title, content, writer)
+		(title,
+		content, writer)
 		VALUES
 		(#{title}, #{content}, #{writer})
 	</insert>
@@ -30,11 +31,17 @@
 		select count(*) from t_board
 	</select>
 
-	<select id="selectPage" parameterType="map" resultType="BoardDto">
+	<select id="selectPage" parameterType="map"
+		resultType="BoardDto">
 		<include refid="selectFromBoard" />
 		order by reg_date desc, bno desc
 		limit #{pageSize} offset #{offset}
 	</select>
-	
-	
+
+	<update id="increaseViewCnt" parameterType="int">
+		update t_board
+		set view_cnt = view_cnt + 1
+		where bno = #{bno}
+	</update>
+
 </mapper>

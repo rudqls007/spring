@@ -7,6 +7,9 @@ import kr.co.heart.domain.BoardDto;
 
 public interface BoardService {
 
-   List<BoardDto> getPage(Map map) throws Exception;
-   int getCount() throws Exception;
+	List<BoardDto> getPage(Map map) throws Exception;
+
+	int getCount() throws Exception;
+
+	BoardDto read(Integer bno) throws Exception;
 }

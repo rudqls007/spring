@@ -46,4 +46,9 @@ public class BoardDaoImpl implements BoardDao {
 		return session.selectList(namespace + "selectPage", map);
 	}
 
+	@Override
+	public int increaseViewCnt(Integer bno) throws Exception {
+		return session.update(namespace+"increaseViewCnt", bno);
+	}
+
 }

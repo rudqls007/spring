@@ -5,7 +5,7 @@
 
 <c:set var="LoginId" value="${sessionScope.id }" />
 <c:set var="loginout"
-	value="${sessionScope.id==null ? 'Login' : 'Logout'}" />
+	value="${sessionScope.id==null ? 'Login' : 'ID:' += LoginId }" />
 <c:set var="loginoutlink"
 	value="${sessionScope.id==null ? '/login/login' : '/login/logout' }" />
 
@@ -110,7 +110,7 @@ td.title:hover {text-decoration: underline;}
 					<tr>
 						<td class="no">${boardDto.bno }</td>
 						<td class="title">
-							<a href="">
+							<a href="<c:url value="/board/read?bno=${boardDto.bno }&page=${page }&pageSize=${pageSize }"/>">
 								${boardDto.title}</a></td>
 						<td class="writer">${boardDto.writer }</td>
 <%-- 						<c:choose> --%>
