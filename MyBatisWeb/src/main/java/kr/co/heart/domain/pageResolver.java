@@ -25,7 +25,7 @@ public class pageResolver {
 		this.pageSize = pageSize;
 		
 		this.totalPage = (int)Math.ceil(totalCnt / (double)pageSize);						// 전체 패이지 갯수
-		this.beginPage = page / NAV_SIZE * NAV_SIZE +1;								// 첫 페이지 숫자
+		this.beginPage = (page-1) / NAV_SIZE * NAV_SIZE +1;								// 첫 페이지 숫자
 		this.endPage = Math.min(this.beginPage + this.NAV_SIZE -1, totalPage); 		
 		this.showPrev = beginPage != 1;
 		this.showNext = endPage != totalPage;
