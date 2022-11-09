@@ -27,6 +27,31 @@ public class BoardController {
 	@Autowired
 	BoardService boardService;
 	
+	@PostMapping("/modify")
+	public String modify(BoardDto boardDto, Integer page, Integer pageSize, 
+						 RedirectAttributes rattr, Model m, HttpSession session) {
+		String writer = (String) session.getAttribute("id");
+		boardDto.setWriter(writer);
+		
+		try {
+			if(boardService.modify(boardDto) != 1)
+				throw new Exception("Modify failed");
+				
+			rattr.addAttribute("page", page);
+			rattr.addAttribute("pageSize", pageSize);
+			rattr.addFlashAttribute("msg", "MOD_OK");
+			return "redirect:/board/list";
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+			m.addAttribute(boardDto);
+			m.addAttribute("page", page);
+			m.addAttribute("pageSize", pageSize);
+			m.addAttribute("msg", "MOD_ERR");
+			return "board";								// 수정 등록하려던 내용을 보여준다.
+		}
+	}
+	
 	@PostMapping("/write")
 	public String wirte(BoardDto boardDto,  RedirectAttributes rattr, Model m, HttpSession session) {
 	 String writer = (String) session.getAttribute("id");

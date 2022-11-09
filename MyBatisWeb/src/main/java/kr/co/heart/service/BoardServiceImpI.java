@@ -46,4 +46,9 @@ public class BoardServiceImpI implements BoardService {
 		return boardDao.insert(boardDto);
 		//throw new Exxception();
 	}
+
+	@Override
+	public int modify(BoardDto boardDto) throws Exception {
+		return boardDao.update(boardDto);
+	}
 }

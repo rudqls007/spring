@@ -93,12 +93,17 @@
                return;
             }
             // 2. 수정상태이면 수정된 내용을 서버로 전송 
+            form.attr("action", "<c:url value='/board/modify?page=${page}&pageSize=${pageSize}' />")
+            form.attr("method", "post")
+            if(formCheck())
+            	form.submit();
          })
       })
    </script>
    <script type="text/javascript">
       let msg = "${msg}"
-      if(msg == "WRT_ERR") alert("게시물 등록에 실패하였습니다. 다시 시도해주세요.")
+      if(msg == "WRT_ERR") alert("게시물 등록에 실패하였습니다. 다시 시도해 주세요.")
+      if(msg == "MOD_ERR") alert("게시물 수정에 실패하였습니다. 다시 시도해 주세요.")
    </script>
    
    <div class="container">

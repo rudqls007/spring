@@ -20,6 +20,8 @@ public interface BoardDao {
 
 	int delete(Integer bno, String writer) throws Exception;
 
+	int update(BoardDto boardDto)throws Exception;
+
 
 	
 }

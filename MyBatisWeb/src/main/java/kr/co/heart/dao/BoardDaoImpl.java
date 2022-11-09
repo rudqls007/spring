@@ -60,4 +60,9 @@ public class BoardDaoImpl implements BoardDao {
 		return session.delete(namespace+"delete", map);
 	}
 
+	@Override
+	public int update(BoardDto boardDto) throws Exception {
+		return session.update(namespace+"update", boardDto);
+	}
+
 }
