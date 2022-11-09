@@ -35,4 +35,15 @@ public class BoardServiceImpI implements BoardService {
 	
 		return boardDto;
 	}
+
+	@Override
+	public int remove(Integer bno, String writer) throws Exception {
+		return boardDao.delete(bno, writer);
+	}
+
+	@Override
+	public int write(BoardDto boardDto) throws Exception {
+		return boardDao.insert(boardDto);
+		//throw new Exxception();
+	}
 }
