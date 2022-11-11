@@ -52,10 +52,10 @@
 		select count(*)
 		from t_board
 		where true
-		and title like concat('%' #{keyword}, '%');
+		and title like concat('%', #{keyword}, '%')
 	</select>
 
-	<select id="seacrhSelectPage" parameterType="SearchItem"
+	<select id="searchSelectPage" parameterType="SearchItem"
 		resultType="BoardDto">
 		select bno, title, "content", writer, view_cnt,
 		comment_cnt, reg_date

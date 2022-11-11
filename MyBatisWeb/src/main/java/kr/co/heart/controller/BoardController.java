@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.naming.directory.SearchResult;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import kr.co.heart.domain.BoardDto;
+import kr.co.heart.domain.SearchItem;
 import kr.co.heart.domain.pageResolver;
 import kr.co.heart.service.BoardService;
 
@@ -126,8 +128,10 @@ public class BoardController {
 	
 	
 	@GetMapping("/list")
-	public String list(@RequestParam(defaultValue = "1") Integer page,
-					   @RequestParam(defaultValue = "10")Integer pageSize,
+	public String list(
+//						@RequestParam(defaultValue = "1") Integer page,
+//					   @RequestParam(defaultValue = "10")Integer pageSize,
+					   SearchItem sc,
 					   Model m,
 					   HttpServletRequest request) {
 
@@ -139,30 +143,30 @@ public class BoardController {
 //			if(page==null) page=1;
 //			if(pageSize==null) pageSize=10;
 			
-			int totalCnt = boardService.getCount();
+			int totalCnt = boardService.getSearchResultCnt(sc);
 			m.addAttribute("totalCnt", totalCnt);
 		
-			pageResolver pageResolver = new pageResolver(totalCnt, page, pageSize);
+			pageResolver pageResolver = new pageResolver(totalCnt, sc);
 			
 			
-			if(page < 0 || page > pageResolver.getTotalCnt()) {
-				page = 1;
-			}
-			if(pageSize < 0 || pageSize > 50) {
-				pageSize = 10;
-			}
+//			if(page < 0 || page > pageResolver.getTotalCnt()) {
+//				page = 1;
+//			}
+//			if(pageSize < 0 || pageSize > 50) {
+//				pageSize = 10;
+//			}
+//			
+//			Map map = new HashMap();
+//			map.put("offset", (page-1)*pageSize);
+//			map.put("pageSize", pageSize);
 			
-			Map map = new HashMap();
-			map.put("offset", (page-1)*pageSize);
-			map.put("pageSize", pageSize);
 			
-			
-			List<BoardDto> list = boardService.getPage(map);
+			List<BoardDto> list = boardService.getSearchResultPage(sc);
 			m.addAttribute("list", list);
 			m.addAttribute("pr", pageResolver);
 			
-			m.addAttribute("page", page);
-			m.addAttribute("pageSize", pageSize);
+//			m.addAttribute("page", page);										// sc에 다 있는 아이들이라 굳이 없어도 된다.
+//			m.addAttribute("pageSize", pageSize);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
