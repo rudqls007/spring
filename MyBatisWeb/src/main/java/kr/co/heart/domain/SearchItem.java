@@ -1,6 +1,6 @@
 package kr.co.heart.domain;
 
-public class SerachItem {
+public class SearchItem {
 
 	public static final int DEFAULT_PAGE_SIZE = 10;
 	
@@ -11,7 +11,7 @@ public class SerachItem {
 	private Integer offset;
 	
 
-	public SerachItem(Integer page, Integer pageSize, String option, String keyword, Integer offset) {
+	public SearchItem(Integer page, Integer pageSize, String option, String keyword, Integer offset) {
 //		super();
 		this.page = page;
 		this.pageSize = pageSize;
