@@ -113,8 +113,8 @@
             </c:forEach>
          </table>
          <br>
-         <div class="paging-container">
-            <div class="paging">
+         <div class="paging-container row" style="float: none; margin:100 auto;">
+            <div class="paging col-md-3" style="float: none; margin:0 auto;">
                <c:if test="${totalCnt == null || totalCnt == 0}">
                   <div>게시물이 없습니다.</div>
                </c:if>
