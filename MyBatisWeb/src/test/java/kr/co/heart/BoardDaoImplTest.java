@@ -54,7 +54,7 @@ public class BoardDaoImplTest {
 		map.put("offset", 0);
 		map.put("pageSize", 3);
 		
-		List<BoardDto> list = boardDao.selectpage(map);
+		List<BoardDto> list = boardDao.selectPage(map);
 		assertTrue(list.get(0).getTitle().equals("Pioneering10"));
 		assertTrue(list.get(1).getTitle().equals("Pioneering9"));
 		assertTrue(list.get(2).getTitle().equals("Pioneering8"));

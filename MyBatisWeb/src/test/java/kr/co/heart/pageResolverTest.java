@@ -4,13 +4,13 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import kr.co.heart.domain.pageResolver;
+import kr.co.heart.domain.PageResolver;
 
 public class pageResolverTest {
 
 	@Test
 	public void test() {
-		pageResolver pr = new pageResolver(250, 1);
+		PageResolver pr = new PageResolver(250, 1);
 		pr.print();
 		System.out.println("pr = " + pr);
 		System.out.println();
@@ -21,7 +21,7 @@ public class pageResolverTest {
 	
 	@Test
 	public void test2() {
-		pageResolver pr = new pageResolver(250, 11);
+		PageResolver pr = new PageResolver(250, 11);
 		pr.print();
 		System.out.println("pr = " + pr);
 		System.out.println();
@@ -32,7 +32,7 @@ public class pageResolverTest {
 	
 	@Test
 	public void test3() {
-		pageResolver pr = new pageResolver(255, 25);
+		PageResolver pr = new PageResolver(255, 25);
 		pr.print();
 		System.out.println("pr = " + pr);
 		System.out.println();
@@ -43,7 +43,7 @@ public class pageResolverTest {
 	
 	@Test
 	public void test4() {
-		pageResolver pr = new pageResolver(255, 20);
+		PageResolver pr = new PageResolver(255, 20);
 		pr.print();
 		System.out.println("pr = " + pr);
 		System.out.println();

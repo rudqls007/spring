@@ -39,18 +39,19 @@ public class BoardDaoImpl implements BoardDao {
 	@Override
 	public int deleteAll() throws Exception {
 		// TODO Auto-generated method stub
-		return session.delete(namespace + "deleteALL");
+		return session.delete(namespace + "deleteAll");
 	}
 
 	@Override
-	public List<BoardDto> selectpage(Map map) throws Exception {
+	public List<BoardDto> selectPage(Map map) throws Exception {
 		// TODO Auto-generated method stub
 		return session.selectList(namespace + "selectPage", map);
 	}
 
 	@Override
 	public int increaseViewCnt(Integer bno) throws Exception {
-		return session.update(namespace+"increaseViewCnt", bno);
+		// TODO Auto-generated method stub
+		return session.update(namespace + "increaseViewCnt", bno);
 	}
 
 	@Override
@@ -58,17 +59,19 @@ public class BoardDaoImpl implements BoardDao {
 		Map map = new HashMap();
 		map.put("bno", bno);
 		map.put("writer", writer);
-		return session.delete(namespace+"delete", map);
+		return session.delete(namespace + "delete", map);
 	}
 
 	@Override
 	public int update(BoardDto boardDto) throws Exception {
-		return session.update(namespace+"update", boardDto);
+		// TODO Auto-generated method stub
+		return session.update(namespace + "update", boardDto);
 	}
 
 	@Override
 	public int searchResultCnt(SearchItem sc) throws Exception {
-		return session.selectOne(namespace +"searchResultCnt", sc);
+		// TODO Auto-generated method stub
+		return session.selectOne(namespace + "searchResultCnt", sc);
 	}
 
 	@Override
@@ -76,5 +79,4 @@ public class BoardDaoImpl implements BoardDao {
 		// TODO Auto-generated method stub
 		return session.selectList(namespace + "searchSelectPage", sc);
 	}
-
 }

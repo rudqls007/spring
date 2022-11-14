@@ -3,25 +3,22 @@ package kr.co.heart.domain;
 import java.util.Date;
 import java.util.Objects;
 
-import org.springframework.stereotype.Component;
-
-
 public class BoardDto {
-
+	
 	private Integer bno;
 	private String title;
 	private String content;
 	private String writer;
 	private int view_cnt;
-	private int	comment_cnt;
+	private int comment_cnt;
 	private Date reg_date;
 	
 	public BoardDto() {
 		this("", "", "");
 	}
-	
+
 	public BoardDto(String title, String content, String writer) {
-		//super();
+		// super();
 		this.title = title;
 		this.content = content;
 		this.writer = writer;
@@ -108,3 +105,30 @@ public class BoardDto {
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

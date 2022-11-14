@@ -11,7 +11,7 @@ import kr.co.heart.domain.BoardDto;
 import kr.co.heart.domain.SearchItem;
 
 @Service
-public class BoardServiceImpI implements BoardService {
+public class boardServiceImpI implements boardService {
 
 	@Autowired
 	BoardDao boardDao;
@@ -19,7 +19,7 @@ public class BoardServiceImpI implements BoardService {
 	@Override
 	public List<BoardDto> getPage(Map map) throws Exception {
 		// TODO Auto-generated method stub
-		return boardDao.selectpage(map);
+		return boardDao.selectPage(map);
 	}
 
 	@Override
@@ -54,12 +54,12 @@ public class BoardServiceImpI implements BoardService {
 	}
 
 	@Override
-	public int getSearchResultCnt(SearchItem sc) throws Exception {
+	public int getsearchResultCnt(SearchItem sc) throws Exception {
 		return boardDao.searchResultCnt(sc);
 	}
 
 	@Override
-	public List<BoardDto> getSearchResultPage(SearchItem sc) throws Exception {
+	public List<BoardDto> getsearchResultPage(SearchItem sc) throws Exception {
 		return boardDao.searchSelectPage(sc);
 	}
 }

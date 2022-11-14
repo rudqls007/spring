@@ -58,7 +58,7 @@
          <li><a href="<c:url value='/board/list' />">Board</a></li>
          <li><a href="<c:url value='${loginoutlink }' />">${loginout }</a></li>
          <li><a href="<c:url value='${signupmypagelink }' />">${signupmypage }</a></li>
-         <li><a href=""><i class="fas fa-search samll"></i></a></li>
+         <li><a href=""><i class="fas fa-search small"></i></a></li>
       </ul>
    </div>
    
@@ -98,7 +98,7 @@
                <tr>
                   <td class="no">${boardDto.bno }</td>
                   <td class="title">
-                     <a href="<c:url value="/board/read?${pr.sc.queryString }bno=${boardDto.bno }" />">
+                     <a href="<c:url value="/board/read${pr.sc.queryString }&bno=${boardDto.bno }" />">
                         ${boardDto.title }
                      </a>
                   </td>

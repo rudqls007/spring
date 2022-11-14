@@ -6,21 +6,15 @@ import java.util.Map;
 import kr.co.heart.domain.BoardDto;
 import kr.co.heart.domain.SearchItem;
 
-public interface BoardService {
-
+public interface boardService {
+	
 	List<BoardDto> getPage(Map map) throws Exception;
-
 	int getCount() throws Exception;
-
 	BoardDto read(Integer bno) throws Exception;
-
 	int remove(Integer bno, String writer) throws Exception;
-
 	int write(BoardDto boardDto) throws Exception;
-
-	int modify(BoardDto boardDto)throws Exception;
+	int modify(BoardDto boardDto) throws Exception;
 	
-	int getSearchResultCnt(SearchItem sc) throws Exception;
-	
-	List<BoardDto> getSearchResultPage(SearchItem sc) throws Exception;
+	int getsearchResultCnt(SearchItem sc) throws Exception;
+	List<BoardDto> getsearchResultPage(SearchItem sc) throws Exception;
 }
