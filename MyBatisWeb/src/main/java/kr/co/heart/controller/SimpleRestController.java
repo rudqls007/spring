@@ -19,6 +19,12 @@ public class SimpleRestController {
 		return "ajax";
 	} 
 	
+	@GetMapping("/test")
+	public String test() {
+		
+		return "test";
+	}
+	
 	@ResponseBody
 	@PostMapping("/send")
 	public Person test(@RequestBody  Person p) {
