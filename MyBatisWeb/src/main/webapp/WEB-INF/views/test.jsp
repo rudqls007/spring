@@ -16,14 +16,14 @@
 	<div id="commentlist"></div>
 	
 	<script type="text/javascript">
-		let bno = 759;
+		let bno = 757;
 		
 		let showList = function(bno) {
 			$.ajax({
 				type: 'GET',												// 요청 메서드
 				url: '/heart/comments?bno='+bno,							// 요청 URI
 				success: function(result) {									// 서버로부터 응답이 도착하면 호출될 함수
-					$("#commentlist").html(toHtml(result))							// result는 서버가 전송한 데이터
+					$("#commentlist").html(toHtml(result))					// result는 서버가 전송한 데이터
 				},
 				error: function() { alert("error")},						// 에러가 발생할 때, 호출될 함수
 			})
@@ -37,7 +37,7 @@
 					type: 'post',  												// 요청 메서드
 					url: '/heart/comments?bno=' + bno,							// 요청 URI
 					headers: { "content-type" : "application/json"},			// 요청 헤더
-					data: JSON.stringify({bno:bno, comment:comment}),								// 서버로 전송할 데이터, stringify()로 직렬화 필요하다.
+					data: JSON.stringify({bno:bno, comment:comment}),			// 서버로 전송할 데이터, stringify()로 직렬화 필요하다.
 					success: function(result) {									// 서버로부터 응답이 도착하면 호출될 함수
 						alert(result)
 						showList(bno)

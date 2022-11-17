@@ -50,4 +50,13 @@ public class CommentServiceImpl implements CommentService {
 		return rowCnt;
 	}
 
+
+
+	@Override
+	@Transactional(rollbackFor = Exception.class)
+	public int write(CommentDto commentDto) throws Exception {
+		boardDao.updateCommentCnt(commentDto.getBno(), 1);								// 어떠한 게시물의 카운트 값을 1 증가시킨다.
+		return commentDao.insert(commentDto);											// commentDto를 insert
+	}
+
 }
