@@ -2898,3 +2898,192 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 [16:58:22][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
 [16:58:22][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
 [16:58:22][INFO ](FrameworkServlet.java:547)-Completed initialization in 673 ms
+[19:30:45][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:30:46][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:30:46][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:30:46][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:30:46][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:30:46][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:30:46][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:30:46][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:30:46][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:30:46][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 859 ms
+[19:30:46][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:30:46][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:30:46][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:30:46][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:30:46][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:30:46][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:30:46][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:30:47][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:30:47][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:30:47][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:30:47][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:30:47][INFO ](FrameworkServlet.java:547)-Completed initialization in 730 ms
+[19:31:41][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:31:42][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:31:42][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:31:42][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:31:42][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:31:42][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:31:42][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:31:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:31:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:31:42][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 741 ms
+[19:31:42][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:31:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:31:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:31:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:31:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:31:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:31:42][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:31:43][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:31:43][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:31:43][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:31:43][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:31:43][INFO ](FrameworkServlet.java:547)-Completed initialization in 804 ms
+[19:34:49][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:34:49][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:34:49][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:34:49][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:34:49][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:34:49][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:34:49][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:34:49][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:34:49][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:34:49][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 759 ms
+[19:34:49][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:34:49][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:34:49][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:34:49][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:34:49][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:34:49][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:34:50][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:34:50][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:34:50][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:34:50][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:34:50][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:34:50][INFO ](FrameworkServlet.java:547)-Completed initialization in 730 ms
+[19:42:51][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:42:51][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:42:51][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:42:51][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:42:51][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:42:52][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:42:52][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:42:52][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:42:52][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:42:52][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 787 ms
+[19:42:52][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:42:52][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:42:52][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:42:52][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:42:52][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:42:52][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:42:52][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:42:52][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:42:52][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:42:52][INFO ](FrameworkServlet.java:547)-Completed initialization in 647 ms
+[19:45:41][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:45:41][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:45:41][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:45:41][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:45:41][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:45:42][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:45:42][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:45:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:45:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:45:42][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 788 ms
+[19:45:42][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:45:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:45:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:45:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:45:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:45:42][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:45:42][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:45:42][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:45:42][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:45:42][INFO ](FrameworkServlet.java:547)-Completed initialization in 724 ms
+[19:46:29][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[19:46:29][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[19:46:30][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[19:46:30][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[19:46:30][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[19:46:30][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[19:46:30][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:46:30][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:46:30][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:46:30][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 769 ms
+[19:46:30][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[19:46:30][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[19:46:30][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[19:46:30][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[19:46:30][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[19:46:30][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[19:46:30][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[19:46:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[19:46:31][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[19:46:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[19:46:31][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[19:46:31][INFO ](FrameworkServlet.java:547)-Completed initialization in 683 ms
+[20:04:18][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[20:04:18][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[20:04:18][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[20:04:18][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[20:04:19][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[20:04:19][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[20:04:19][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[20:04:19][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[20:04:19][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[20:04:19][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 770 ms
+[20:04:19][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[20:04:19][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[20:04:19][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[20:04:19][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[20:04:19][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[20:04:19][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[20:04:19][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[20:04:19][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[20:04:19][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[20:04:19][INFO ](FrameworkServlet.java:547)-Completed initialization in 705 ms
