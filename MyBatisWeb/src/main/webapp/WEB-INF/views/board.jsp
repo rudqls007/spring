@@ -46,6 +46,31 @@
     	  
     	  let bno = 759
     	  
+    		$("#commentlist").on("click", ".delBtn", function() {		// coomentlist안에 있는 delBtn버튼에다가 클릭 이벤트를 등록해야한다.
+				alert("삭제 버튼 클릭됨")
+			
+				let cno = $(this).parent().attr("data-cno")				// <li>태그는 <button>의 부모다.
+				let bno = $(this).parent().attr("data-bno")				// attr중 사용자 정의 attr를 선택한다.
+				
+				$.ajax({
+					
+					type: 'DELETE',										// 요청 메서드
+					url: '/heart/comments/'+cno+'?bno='+bno,				// 요청 URI
+					success: function(result) {							// 서버로부터 응답이 도착하면 호출될 함수
+						alert(result)									// result 서버가 전송한 데이터
+						showList(bno)
+					},
+					error: function() { alert("error")}					// 에러가 발생했을 때 호출될 함수
+					
+				
+				})
+				
+				
+			
+		})
+    	  
+    	  
+    	  
     	  let showList = function(bno) {
   			$.ajax({
   				type: 'GET',												// 요청 메서드
@@ -58,14 +83,15 @@
   		}
     	  
     	  let toHtml = function(comments) {
-  			let tmp = "<ul>"
+  			let tmp = "<ul style= 'display: block; '>"
   			
   			comments.forEach(function(comment) {
-  				tmp += '<li data-cno=' + comment.cno
+  				tmp += '<li style="background-color: #f9f9fa; border-bottom: 1px solid rgb(235, 236, 239); color: black;" data-cno=' + comment.cno
   				tmp += ' data-bno =' + comment.bno
   				tmp += ' data-pcno =' + comment.pcno + '>'
   				tmp += ' commenter=<span class="commenter">' + comment.commenter + '</span>'
   				tmp += ' comment=<span class="comment">' + comment.comment + '</span>'
+  				tmp += ' <button class="delBtn">삭제</button>'
   				
   				tmp += '</li>'
   				

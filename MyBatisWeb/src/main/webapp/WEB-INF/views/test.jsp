@@ -11,6 +11,7 @@
 </head>
 <body>
 	<h2>CommentTest</h2>
+	commnet : <input type="text" name="comment"  />
 	<button id="sendBtn" type="button">SEND</button>
 	<div id="commentlist"></div>
 	
@@ -30,7 +31,19 @@
 		
 		$(document).ready(function() {
 			$("#sendBtn").click(function() {
-				showList(bno)
+				//showList(bno)
+				let comment = $("input[name=comment]").val();					// input 태그에 있는 네임 속성을 가진 comment를 불러와서 comment 변수에 벨류 값을 추가해서 넣어준다.
+				$.ajax({
+					type: 'post',  												// 요청 메서드
+					url: '/heart/comments?bno=' + bno,							// 요청 URI
+					headers: { "content-type" : "application/json"},			// 요청 헤더
+					data: JSON.stringify({bno:bno, comment:comment}),								// 서버로 전송할 데이터, stringify()로 직렬화 필요하다.
+					success: function(result) {									// 서버로부터 응답이 도착하면 호출될 함수
+						alert(result)
+						showList(bno)
+					},
+					error: function() { alert("error")}							// 에러가 발생했을 때, 호출될 함수
+				})
 			})
 			
 			//$(".delBtn").click(function() { 								// [send]버튼을 클릭을 하고 나ㅏ서 [삭제] 버튼이 보이므로 이벤트 활성화가 안된다.

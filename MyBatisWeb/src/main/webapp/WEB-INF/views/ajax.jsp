@@ -14,7 +14,7 @@
 	<button id="sendBtn" type="button">SEND</button>
 	
 	<h2>Data from Server : </h2>
-	<div id="date"></div>
+	<div id="data"></div>
 	
 	
 	<script type="text/javascript">
