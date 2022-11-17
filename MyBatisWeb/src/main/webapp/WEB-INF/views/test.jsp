@@ -33,6 +33,14 @@
 			$("#sendBtn").click(function() {
 				//showList(bno)
 				let comment = $("input[name=comment]").val();					// input 태그에 있는 네임 속성을 가진 comment를 불러와서 comment 변수에 벨류 값을 추가해서 넣어준다.
+				
+				if(comment.trim() =='') {
+					alert("댓글을 입력해 주세요.")
+					$("input[name=comment]").focus()
+					return
+					
+				}
+				
 				$.ajax({
 					type: 'post',  												// 요청 메서드
 					url: '/heart/comments?bno=' + bno,							// 요청 URI

@@ -898,3 +898,355 @@
 [12:08:11][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 757(Integer)
 [12:08:11][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 3
 [12:08:11][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18bb3dfa]
+[14:08:06][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[14:08:06][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@447630c4]
+[14:08:06][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[14:08:06][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[14:08:06][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis_config.xml]'
+[14:08:06][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\boardMapper.xml]'
+[14:08:06][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\MyBatisWeb\WEB-INF\classes\mapper\commentMapper.xml]'
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[14:08:06][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[14:08:06][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[14:08:06][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 767 ms
+[14:08:06][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[14:08:06][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[14:08:06][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[14:08:06][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[14:08:06][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[14:08:06][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[14:08:07][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@345af277]
+[14:08:07][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[14:08:07][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[14:08:07][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[14:08:07][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[14:08:07][INFO ](FrameworkServlet.java:547)-Completed initialization in 677 ms
+[14:08:15][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:16][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:08:16][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63acf7e2] was not registered for synchronization because synchronization is not active
+[14:08:16][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:08:16][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:16][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@65270504] will not be managed by Spring
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from t_board where true AND (title LIKE concat('%', ?, '%') OR content LIKE concat('%', ?, '%'))
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:08:16][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63acf7e2]
+[14:08:16][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:08:16][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5cde335c] was not registered for synchronization because synchronization is not active
+[14:08:16][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:08:16][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:16][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@1ba19875] will not be managed by Spring
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select bno , title, content , writer , view_cnt , comment_cnt , reg_date from t_board where true AND (title LIKE concat('%', ?, '%') OR content LIKE concat('%', ?, '%')) order by reg_date desc, bno desc limit ? offset ?
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[14:08:16][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[14:08:16][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5cde335c]
+[14:08:29][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:08:29][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c4c2e08] was not registered for synchronization because synchronization is not active
+[14:08:29][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:08:29][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:29][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@657694bc] will not be managed by Spring
+[14:08:29][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set comment_cnt = comment_cnt + ? where bno = ?
+[14:08:29][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 1(Integer), 757(Integer)
+[14:08:30][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:08:30][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c4c2e08]
+[14:08:30][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:08:30][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61c47ae2] was not registered for synchronization because synchronization is not active
+[14:08:30][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:08:30][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:30][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@56af9cc0] will not be managed by Spring
+[14:08:30][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO t_comment (bno, pcno, comment, commenter, reg_date, up_date) VALUES(?, ?, ?, ?, now(), now())
+[14:08:30][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 757(Integer), null, 안녕하세요(String), ezen(String)
+[14:08:30][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:08:30][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61c47ae2]
+[14:08:31][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:08:31][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@251ea4e] was not registered for synchronization because synchronization is not active
+[14:08:31][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:08:31][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:08:31][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@7265a0f8] will not be managed by Spring
+[14:08:31][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select cno, bno, pcno, "comment", commenter, reg_date, up_date from t_comment where bno = ? order by reg_date, cno desc
+[14:08:31][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 757(Integer)
+[14:08:31][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 4
+[14:08:31][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@251ea4e]
+[14:12:35][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:12:35][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5eb4df9b] was not registered for synchronization because synchronization is not active
+[14:12:35][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:12:35][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:12:35][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@324dd524] will not be managed by Spring
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set comment_cnt = comment_cnt + ? where bno = ?
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 1(Integer), 757(Integer)
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:12:35][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5eb4df9b]
+[14:12:35][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:12:35][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3de0e16b] was not registered for synchronization because synchronization is not active
+[14:12:35][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:12:35][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:12:35][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6b7e79f] will not be managed by Spring
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO t_comment (bno, pcno, comment, commenter, reg_date, up_date) VALUES(?, ?, ?, ?, now(), now())
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 757(Integer), null, 안녕하세요 반갑습니다.(String), ezen(String)
+[14:12:35][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:12:35][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3de0e16b]
+[14:12:36][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:12:36][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77121a16] was not registered for synchronization because synchronization is not active
+[14:12:36][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:12:36][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:12:36][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@51b9cf1b] will not be managed by Spring
+[14:12:36][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select cno, bno, pcno, "comment", commenter, reg_date, up_date from t_comment where bno = ? order by reg_date, cno desc
+[14:12:36][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 757(Integer)
+[14:12:36][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 5
+[14:12:36][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77121a16]
+[14:16:04][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:16:04][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71b2c381] was not registered for synchronization because synchronization is not active
+[14:16:04][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:16:04][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:16:04][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2f294e16] will not be managed by Spring
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from t_board where true AND (title LIKE concat('%', ?, '%') OR content LIKE concat('%', ?, '%'))
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:16:04][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71b2c381]
+[14:16:04][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:16:04][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7343b57b] was not registered for synchronization because synchronization is not active
+[14:16:04][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:16:04][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:16:04][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5ab25e0a] will not be managed by Spring
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select bno , title, content , writer , view_cnt , comment_cnt , reg_date from t_board where true AND (title LIKE concat('%', ?, '%') OR content LIKE concat('%', ?, '%')) order by reg_date desc, bno desc limit ? offset ?
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[14:16:04][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[14:16:04][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7343b57b]
+[14:16:05][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:16:05][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2763f498] was not registered for synchronization because synchronization is not active
+[14:16:05][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:16:05][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:16:05][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@e787343] will not be managed by Spring
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:16:05][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2763f498]
+[14:16:05][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:16:05][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f8c8d0] was not registered for synchronization because synchronization is not active
+[14:16:05][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:16:05][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:16:05][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@67ddeb7e] will not be managed by Spring
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:16:05][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:16:05][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f8c8d0]
+[14:19:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4573226f] was not registered for synchronization because synchronization is not active
+[14:19:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5f64d6c0] will not be managed by Spring
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:19:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4573226f]
+[14:19:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f0410f2] was not registered for synchronization because synchronization is not active
+[14:19:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@373edeac] will not be managed by Spring
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:44][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:19:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f0410f2]
+[14:19:45][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:45][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7aa9c68e] was not registered for synchronization because synchronization is not active
+[14:19:45][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:45][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:45][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4fa35767] will not be managed by Spring
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:19:45][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7aa9c68e]
+[14:19:45][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:45][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6553a016] was not registered for synchronization because synchronization is not active
+[14:19:45][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:45][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:45][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@78a71699] will not be managed by Spring
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:45][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:19:45][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6553a016]
+[14:19:51][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:51][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@743a5f3e] was not registered for synchronization because synchronization is not active
+[14:19:51][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:51][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:51][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@c6ec3a4] will not be managed by Spring
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:19:51][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@743a5f3e]
+[14:19:51][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:19:51][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20f3ac0b] was not registered for synchronization because synchronization is not active
+[14:19:51][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:19:51][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:19:51][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5069187e] will not be managed by Spring
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:19:51][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:19:51][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20f3ac0b]
+[14:22:12][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:22:12][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9b9182c] was not registered for synchronization because synchronization is not active
+[14:22:12][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:22:12][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:22:12][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@12bdd1ff] will not be managed by Spring
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:22:12][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9b9182c]
+[14:22:12][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:22:12][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10618ef5] was not registered for synchronization because synchronization is not active
+[14:22:12][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:22:12][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:22:12][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4b909f96] will not be managed by Spring
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:22:12][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:22:12][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10618ef5]
+[14:22:37][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:22:37][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dc0160e] was not registered for synchronization because synchronization is not active
+[14:22:37][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:22:37][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:22:37][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@62f06140] will not be managed by Spring
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:22:37][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dc0160e]
+[14:22:37][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:22:37][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@770e0803] was not registered for synchronization because synchronization is not active
+[14:22:37][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:22:37][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:22:37][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2abf73da] will not be managed by Spring
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:22:37][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:22:37][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@770e0803]
+[14:23:41][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:23:41][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1182fb25] was not registered for synchronization because synchronization is not active
+[14:23:41][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:23:41][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:23:41][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@1cd9050b] will not be managed by Spring
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:23:41][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1182fb25]
+[14:23:41][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:23:41][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e1c98ea] was not registered for synchronization because synchronization is not active
+[14:23:41][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:23:41][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:23:41][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@27756c7f] will not be managed by Spring
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:23:41][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:23:41][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e1c98ea]
+[14:24:37][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:24:37][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79b98c0] was not registered for synchronization because synchronization is not active
+[14:24:37][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:24:37][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:24:37][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2183d43e] will not be managed by Spring
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:24:37][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79b98c0]
+[14:24:37][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:24:37][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c9cdf22] was not registered for synchronization because synchronization is not active
+[14:24:37][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:24:37][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:24:37][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2850bb29] will not be managed by Spring
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:24:37][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:24:37][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c9cdf22]
+[14:25:03][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:25:03][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678835c2] was not registered for synchronization because synchronization is not active
+[14:25:03][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:25:03][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:25:03][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@58c0e4a6] will not be managed by Spring
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:25:03][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678835c2]
+[14:25:03][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:25:03][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71dcb9e7] was not registered for synchronization because synchronization is not active
+[14:25:03][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:25:03][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:25:03][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@42329d1f] will not be managed by Spring
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:25:03][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:25:03][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71dcb9e7]
+[14:25:14][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:25:14][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25b9dda1] was not registered for synchronization because synchronization is not active
+[14:25:14][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:25:14][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:25:14][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@c0649f7] will not be managed by Spring
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:25:14][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25b9dda1]
+[14:25:14][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:25:14][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7605acb1] was not registered for synchronization because synchronization is not active
+[14:25:14][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:25:14][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:25:14][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@74d95e81] will not be managed by Spring
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:25:14][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:25:14][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7605acb1]
+[14:26:08][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:26:08][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20d0397f] was not registered for synchronization because synchronization is not active
+[14:26:08][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:26:08][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:26:08][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@437a730a] will not be managed by Spring
+[14:26:08][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select cno, bno, pcno, "comment", commenter, reg_date, up_date from t_comment where bno = ? order by reg_date, cno desc
+[14:26:08][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:26:08][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 13
+[14:26:08][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20d0397f]
+[14:29:15][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:29:15][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73077f25] was not registered for synchronization because synchronization is not active
+[14:29:15][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:29:15][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:29:15][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6b343e2d] will not be managed by Spring
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date FROM t_board where bno = ?
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[14:29:15][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73077f25]
+[14:29:15][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:29:15][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47476f5d] was not registered for synchronization because synchronization is not active
+[14:29:15][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:29:15][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:29:15][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@659551a6] will not be managed by Spring
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set view_cnt = view_cnt + 1 where bno = ?
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:29:15][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:29:15][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47476f5d]
+[14:29:17][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:29:17][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a9ac99] was not registered for synchronization because synchronization is not active
+[14:29:17][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:29:17][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:29:17][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6e1c13b1] will not be managed by Spring
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update t_board set comment_cnt = comment_cnt + ? where bno = ?
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 1(Integer), 759(Integer)
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:29:17][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a9ac99]
+[14:29:17][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:29:17][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29c5583e] was not registered for synchronization because synchronization is not active
+[14:29:17][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:29:17][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:29:17][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@209754ab] will not be managed by Spring
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO t_comment (bno, pcno, comment, commenter, reg_date, up_date) VALUES(?, ?, ?, ?, now(), now())
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer), null, ㅇㅁㅇㅁㅇ(String), ezen(String)
+[14:29:17][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[14:29:17][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29c5583e]
+[14:29:18][DEBUG](Logger.java:49)-Creating a new SqlSession
+[14:29:18][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6740738f] was not registered for synchronization because synchronization is not active
+[14:29:18][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[14:29:18][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/ezendb]
+[14:29:18][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@582f8328] will not be managed by Spring
+[14:29:18][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select cno, bno, pcno, "comment", commenter, reg_date, up_date from t_comment where bno = ? order by reg_date, cno desc
+[14:29:18][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 759(Integer)
+[14:29:18][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 14
+[14:29:18][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6740738f]
