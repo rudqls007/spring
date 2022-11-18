@@ -46,4 +46,10 @@ public class CommentDaoImpl implements CommentDao {
 		return session.insert(namespace +"insert", commentDto);
 	}
 
+
+	@Override
+	public int update(CommentDto commentdto) throws Exception {
+		return session.update(namespace + "update", commentdto);
+	}
+
 }

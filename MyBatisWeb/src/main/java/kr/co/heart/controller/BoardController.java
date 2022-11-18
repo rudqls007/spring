@@ -31,6 +31,7 @@ public class BoardController {
       String writer = (String) session.getAttribute("id");
       boardDto.setWriter(writer);
       
+      
       try {
          if(boardService.modify(boardDto) != 1)
             throw new Exception("Modify failed");

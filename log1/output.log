@@ -1,0 +1,996 @@
+[15:41:48][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[15:41:49][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 722 ms
+[15:41:49][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[15:41:49][INFO ](FrameworkServlet.java:547)-Completed initialization in 654 ms
+[15:43:31][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[15:43:32][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@2c001c1]
+[15:43:32][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[15:43:32][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:43:32][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[15:43:32][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:43:32][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:43:32][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:43:32][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 620 ms
+[15:43:32][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[15:43:32][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[15:43:32][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[15:43:32][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[15:43:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[15:43:32][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[15:43:32][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@4ebf4f18]
+[15:43:33][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:43:33][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:43:33][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:43:33][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:43:33][INFO ](FrameworkServlet.java:547)-Completed initialization in 594 ms
+[15:43:38][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:38][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@421e56c7] was not registered for synchronization because synchronization is not active
+[15:43:38][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:38][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:38][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@72e1e6f8] will not be managed by Spring
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'M' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:43:38][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@421e56c7]
+[15:43:38][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:38][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bbd4b09] was not registered for synchronization because synchronization is not active
+[15:43:38][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:38][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:38][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@bfb3cf3] will not be managed by Spring
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='M' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:43:38][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:43:38][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bbd4b09]
+[15:43:45][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:45][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25d7135b] was not registered for synchronization because synchronization is not active
+[15:43:45][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:45][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:45][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5506afc9] will not be managed by Spring
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:43:45][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25d7135b]
+[15:43:45][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:45][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2916ebf6] was not registered for synchronization because synchronization is not active
+[15:43:45][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:45][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:45][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3a83177e] will not be managed by Spring
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:43:45][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:43:45][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2916ebf6]
+[15:43:51][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:51][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@198c9d5f] was not registered for synchronization because synchronization is not active
+[15:43:51][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:51][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:51][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5b624325] will not be managed by Spring
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_type, board_kind, board_date) VALUES(?, ?, ?, 'Y', 'Q', now());
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 갱이(String)
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:43:51][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@198c9d5f]
+[15:43:51][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:51][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6789b755] was not registered for synchronization because synchronization is not active
+[15:43:51][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:51][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:51][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@39fa4d55] will not be managed by Spring
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:43:51][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6789b755]
+[15:43:51][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:43:51][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4acbef71] was not registered for synchronization because synchronization is not active
+[15:43:51][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:43:51][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:43:51][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@409965c8] will not be managed by Spring
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:43:51][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:43:51][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4acbef71]
+[15:45:01][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[15:45:01][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@52f3859a]
+[15:45:02][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[15:45:02][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:45:02][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[15:45:02][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:45:02][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:45:02][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:45:02][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 709 ms
+[15:45:02][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[15:45:02][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[15:45:02][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[15:45:02][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[15:45:02][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[15:45:02][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[15:45:02][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@2acacb1]
+[15:45:03][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:45:03][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:45:03][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:45:03][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:45:03][INFO ](FrameworkServlet.java:547)-Completed initialization in 690 ms
+[15:47:52][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:47:52][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77fa1f2f] was not registered for synchronization because synchronization is not active
+[15:47:52][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:47:52][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:47:52][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@34d69623] will not be managed by Spring
+[15:47:52][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_type, board_kind, board_date) VALUES(?, ?, ?, 'Y', 'Q', now());
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 갱이(String)
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:47:53][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77fa1f2f]
+[15:47:53][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:47:53][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ec3cd32] was not registered for synchronization because synchronization is not active
+[15:47:53][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:47:53][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:47:53][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5a0f8194] will not be managed by Spring
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:47:53][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ec3cd32]
+[15:47:53][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:47:53][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55104f48] was not registered for synchronization because synchronization is not active
+[15:47:53][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:47:53][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:47:53][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4ae1812b] will not be managed by Spring
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:47:53][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:47:53][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55104f48]
+[15:52:40][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:52:40][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@293fa4b9] was not registered for synchronization because synchronization is not active
+[15:52:40][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:52:40][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:52:40][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@545f6354] will not be managed by Spring
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:52:40][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@293fa4b9]
+[15:52:40][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:52:40][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d017a58] was not registered for synchronization because synchronization is not active
+[15:52:40][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:52:40][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:52:40][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@47a2914d] will not be managed by Spring
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:52:40][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:52:40][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d017a58]
+[15:53:00][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:00][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1336030e] was not registered for synchronization because synchronization is not active
+[15:53:00][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:00][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:00][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6393bf24] will not be managed by Spring
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_type, board_kind, board_date) VALUES(?, ?, ?, 'Y', 'Q', now());
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 갱이(String)
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:53:00][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1336030e]
+[15:53:00][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:00][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e83bd1d] was not registered for synchronization because synchronization is not active
+[15:53:00][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:00][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:00][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3a70c4d4] will not be managed by Spring
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:00][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e83bd1d]
+[15:53:00][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:00][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71b368e1] was not registered for synchronization because synchronization is not active
+[15:53:00][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:00][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:00][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@46f7e699] will not be managed by Spring
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:00][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:00][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71b368e1]
+[15:53:43][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:43][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a3cb79] was not registered for synchronization because synchronization is not active
+[15:53:43][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:43][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:43][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@786fcae4] will not be managed by Spring
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:43][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a3cb79]
+[15:53:43][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:43][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63936207] was not registered for synchronization because synchronization is not active
+[15:53:43][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:43][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:43][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5812b177] will not be managed by Spring
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:43][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63936207]
+[15:53:43][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:43][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58a38d2e] was not registered for synchronization because synchronization is not active
+[15:53:43][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:43][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:43][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@51d47c1d] will not be managed by Spring
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:43][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58a38d2e]
+[15:53:43][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:43][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483392cb] was not registered for synchronization because synchronization is not active
+[15:53:43][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:43][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:43][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3a6f2d84] will not be managed by Spring
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:43][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:43][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483392cb]
+[15:53:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f0666fe] was not registered for synchronization because synchronization is not active
+[15:53:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6c2355e7] will not be managed by Spring
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f0666fe]
+[15:53:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@648286d8] was not registered for synchronization because synchronization is not active
+[15:53:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@76a82f5] will not be managed by Spring
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@648286d8]
+[15:53:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d976e61] was not registered for synchronization because synchronization is not active
+[15:53:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@5f6c5175] will not be managed by Spring
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d976e61]
+[15:53:44][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:44][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f8057fe] was not registered for synchronization because synchronization is not active
+[15:53:44][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:44][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:44][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3410e077] will not be managed by Spring
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:44][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:44][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f8057fe]
+[15:53:50][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:50][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7a211a] was not registered for synchronization because synchronization is not active
+[15:53:50][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:50][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:50][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@7148fa57] will not be managed by Spring
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_type, board_kind, board_date) VALUES(?, ?, ?, 'Y', 'Q', now());
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 갱이(String)
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:53:50][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7a211a]
+[15:53:50][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:50][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5230d7] was not registered for synchronization because synchronization is not active
+[15:53:50][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:50][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:50][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2c76268b] will not be managed by Spring
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:53:50][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5230d7]
+[15:53:50][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:53:50][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b54d0a7] was not registered for synchronization because synchronization is not active
+[15:53:50][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:53:50][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:53:50][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6929060b] will not be managed by Spring
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:53:50][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:53:50][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b54d0a7]
+[15:56:31][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[15:56:31][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3f3b50df]
+[15:56:31][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[15:56:31][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:56:31][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[15:56:31][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:56:31][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:56:31][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:56:31][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 651 ms
+[15:56:31][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[15:56:31][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[15:56:31][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[15:56:31][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[15:56:31][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[15:56:31][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[15:56:31][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@2639ec96]
+[15:56:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:56:32][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:56:32][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:56:32][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:56:32][INFO ](FrameworkServlet.java:547)-Completed initialization in 638 ms
+[15:56:32][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:56:32][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c4c4000] was not registered for synchronization because synchronization is not active
+[15:56:32][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c4c4000]
+[15:56:55][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:56:55][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b192cfe] was not registered for synchronization because synchronization is not active
+[15:56:55][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:56:55][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:56:55][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@26c5e753] will not be managed by Spring
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:56:55][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b192cfe]
+[15:56:55][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:56:55][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5badcc69] was not registered for synchronization because synchronization is not active
+[15:56:55][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:56:55][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:56:55][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@751f7571] will not be managed by Spring
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:56:55][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:56:55][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5badcc69]
+[15:57:05][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:57:05][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@381cea0e] was not registered for synchronization because synchronization is not active
+[15:57:05][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:57:05][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:57:05][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@282042dd] will not be managed by Spring
+[15:57:05][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id) VALUES (?, ?, ?)
+[15:57:05][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), null
+[15:57:05][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@381cea0e]
+[15:57:05][DEBUG](SQLErrorCodesFactory.java:223)-Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@19a5fe0b]
+[15:57:05][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:57:05][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:57:05][DEBUG](SQLErrorCodesFactory.java:181)-SQL error codes for 'PostgreSQL' found
+[15:57:05][DEBUG](SQLErrorCodesFactory.java:267)-Caching SQL error codes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@19a5fe0b]: database product name is 'PostgreSQL'
+[15:57:05][DEBUG](SQLErrorCodeSQLExceptionTranslator.java:407)-Translating SQLException with SQL state '23502', error code '0', message [오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (52, , , null, null, null, 0, null, 2022-11-18)] for task [
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (52, , , null, null, null, 0, null, 2022-11-18)
+### The error may exist in file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]
+### The error may involve kr.co.lookst.board.dao.BoardMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO board   (board_title,   board_con, member_id)   VALUES   (?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: 오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (52, , , null, null, null, 0, null, 2022-11-18)
+]
+[15:58:47][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:47][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30b8b974] was not registered for synchronization because synchronization is not active
+[15:58:47][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:47][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:47][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@40be80db] will not be managed by Spring
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:58:47][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30b8b974]
+[15:58:47][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:47][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f840f63] was not registered for synchronization because synchronization is not active
+[15:58:47][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:47][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:47][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@51ec1b5b] will not be managed by Spring
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:58:47][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:58:47][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f840f63]
+[15:58:48][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:48][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@685927a8] was not registered for synchronization because synchronization is not active
+[15:58:48][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:48][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:48][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@188787ce] will not be managed by Spring
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:58:48][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@685927a8]
+[15:58:48][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:48][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@436a6462] was not registered for synchronization because synchronization is not active
+[15:58:48][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:48][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:48][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@533546b1] will not be managed by Spring
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:58:48][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:58:48][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@436a6462]
+[15:58:49][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:49][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2997586b] was not registered for synchronization because synchronization is not active
+[15:58:49][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:49][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:49][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@59087fbc] will not be managed by Spring
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:58:49][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2997586b]
+[15:58:49][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:49][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7c8bea] was not registered for synchronization because synchronization is not active
+[15:58:49][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:49][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:49][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@1dddbdfb] will not be managed by Spring
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:58:49][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:58:49][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7c8bea]
+[15:58:53][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:58:53][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5179c272] was not registered for synchronization because synchronization is not active
+[15:58:53][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:58:53][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:58:53][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@7ed6da8b] will not be managed by Spring
+[15:58:53][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id) VALUES (?, ?, ?)
+[15:58:53][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), null
+[15:58:53][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5179c272]
+[15:58:53][DEBUG](SQLErrorCodeSQLExceptionTranslator.java:407)-Translating SQLException with SQL state '23502', error code '0', message [오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (54, , , null, null, null, 0, null, 2022-11-18)] for task [
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (54, , , null, null, null, 0, null, 2022-11-18)
+### The error may exist in file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]
+### The error may involve kr.co.lookst.board.dao.BoardMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO board   (board_title,   board_con, member_id)   VALUES   (?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: 오류: "member_id" 칼럼(해당 릴레이션 "board")의 null 값이 not null 제약조건을 위반했습니다.
+  Detail: 실패한 자료: (54, , , null, null, null, 0, null, 2022-11-18)
+]
+[15:59:24][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[15:59:24][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3e4d0bc1]
+[15:59:25][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[15:59:25][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:59:25][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[15:59:25][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:59:25][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:59:25][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:59:25][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 708 ms
+[15:59:25][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[15:59:25][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[15:59:25][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[15:59:25][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[15:59:25][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[15:59:25][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[15:59:25][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@41423c33]
+[15:59:26][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[15:59:26][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[15:59:26][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[15:59:26][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[15:59:26][INFO ](FrameworkServlet.java:547)-Completed initialization in 685 ms
+[15:59:26][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:26][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c981bde] was not registered for synchronization because synchronization is not active
+[15:59:26][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:26][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:26][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@17536bc1] will not be managed by Spring
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:59:26][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c981bde]
+[15:59:26][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:26][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a8fa35f] was not registered for synchronization because synchronization is not active
+[15:59:26][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:26][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:26][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4283b8d6] will not be managed by Spring
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:59:26][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:59:26][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a8fa35f]
+[15:59:28][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:28][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@388495d6] was not registered for synchronization because synchronization is not active
+[15:59:28][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:28][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:28][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@608a7936] will not be managed by Spring
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:59:28][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@388495d6]
+[15:59:28][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:28][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a6f7f22] was not registered for synchronization because synchronization is not active
+[15:59:28][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:28][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:28][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@51676fef] will not be managed by Spring
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:59:28][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:59:28][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a6f7f22]
+[15:59:32][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:32][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@158c77a] was not registered for synchronization because synchronization is not active
+[15:59:32][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:32][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:32][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@7d36045a] will not be managed by Spring
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_secret, board_type, board_views, board_kind, board_date) VALUES('감사합니다', '그냥요', '갱이', false, 'Y', 0, 'Q', CURRENT_TIMESTAMP);
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:59:32][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@158c77a]
+[15:59:32][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:32][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b0d3151] was not registered for synchronization because synchronization is not active
+[15:59:32][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:32][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:32][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@140b6fb9] will not be managed by Spring
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[15:59:32][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:59:32][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b0d3151]
+[15:59:32][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:32][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3965d34d] was not registered for synchronization because synchronization is not active
+[15:59:32][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:32][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:33][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3c099915] will not be managed by Spring
+[15:59:33][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[15:59:33][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[15:59:33][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[15:59:33][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3965d34d]
+[15:59:39][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:39][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c9b304] was not registered for synchronization because synchronization is not active
+[15:59:39][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:39][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:39][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4c15159] will not be managed by Spring
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: SELECT board_no, board_title, board_con, member_id, board_views, board_date FROM board where board_no = ?
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 55(Integer)
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[15:59:39][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c9b304]
+[15:59:39][DEBUG](Logger.java:49)-Creating a new SqlSession
+[15:59:39][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35bfbd08] was not registered for synchronization because synchronization is not active
+[15:59:39][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[15:59:39][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[15:59:39][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@641b1da5] will not be managed by Spring
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: update BOARD set board_views = board_views + 1 where board_no = ?
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: 55(Integer)
+[15:59:39][DEBUG](BaseJdbcLogger.java:137)-<==    Updates: 1
+[15:59:39][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35bfbd08]
+[16:00:11][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:00:12][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@593f06ae]
+[16:00:12][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:00:12][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:00:12][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[16:00:12][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:00:12][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:00:12][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:12][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 685 ms
+[16:00:12][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[16:00:12][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[16:00:12][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[16:00:12][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[16:00:12][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[16:00:12][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:12][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@1e3cd13a]
+[16:00:13][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:00:13][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:00:13][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:00:13][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:13][INFO ](FrameworkServlet.java:547)-Completed initialization in 623 ms
+[16:00:13][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:00:13][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79666596] was not registered for synchronization because synchronization is not active
+[16:00:13][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:00:13][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:00:13][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@73e5ade7] will not be managed by Spring
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:00:13][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79666596]
+[16:00:13][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:00:13][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640c8232] was not registered for synchronization because synchronization is not active
+[16:00:13][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:00:13][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:00:13][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@6cd36e13] will not be managed by Spring
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:00:13][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:00:13][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640c8232]
+[16:00:14][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:00:14][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f3f429b] was not registered for synchronization because synchronization is not active
+[16:00:14][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:00:14][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:00:14][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@557977ae] will not be managed by Spring
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:00:14][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f3f429b]
+[16:00:14][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:00:14][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8668712] was not registered for synchronization because synchronization is not active
+[16:00:14][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:00:14][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:00:14][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2cac6a05] will not be managed by Spring
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:00:14][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:00:14][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8668712]
+[16:00:20][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:00:20][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d1155b9] was not registered for synchronization because synchronization is not active
+[16:00:20][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:00:20][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:00:20][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2d3eaaf6] will not be managed by Spring
+[16:00:20][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_secret, board_type, board_views, board_kind, board_date) VALUES('?', '?', '?', false, 'Y', 0, 'Q', CURRENT_TIMESTAMP);
+[16:00:20][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d1155b9]
+[16:00:59][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:00:59][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@57706c57]
+[16:00:59][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:00:59][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:00:59][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[16:00:59][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:00:59][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:00:59][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:59][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 613 ms
+[16:00:59][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[16:00:59][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[16:00:59][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[16:00:59][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[16:00:59][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[16:00:59][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[16:00:59][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@5b345fee]
+[16:01:00][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:01:00][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:01:00][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:01:00][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:01:00][INFO ](FrameworkServlet.java:547)-Completed initialization in 736 ms
+[16:01:09][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:09][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dcee266] was not registered for synchronization because synchronization is not active
+[16:01:09][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:09][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:09][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@3e0d634a] will not be managed by Spring
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:01:09][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dcee266]
+[16:01:09][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:09][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@165eac26] was not registered for synchronization because synchronization is not active
+[16:01:09][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:09][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:09][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@c692967] will not be managed by Spring
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:01:09][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:01:09][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@165eac26]
+[16:01:11][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:11][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@778c9a4b] was not registered for synchronization because synchronization is not active
+[16:01:11][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:11][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:11][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@74de056] will not be managed by Spring
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:01:11][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@778c9a4b]
+[16:01:11][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:11][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f3b90ce] was not registered for synchronization because synchronization is not active
+[16:01:11][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:11][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:11][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@2736decf] will not be managed by Spring
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:01:11][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f3b90ce]
+[16:01:11][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:11][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fca13c] was not registered for synchronization because synchronization is not active
+[16:01:11][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:11][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:11][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@36b989cc] will not be managed by Spring
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:01:11][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fca13c]
+[16:01:11][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:11][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e0486dd] was not registered for synchronization because synchronization is not active
+[16:01:11][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:11][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:11][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@1b14e63a] will not be managed by Spring
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:01:11][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:01:11][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e0486dd]
+[16:01:12][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:12][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75a79aa0] was not registered for synchronization because synchronization is not active
+[16:01:12][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:12][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:12][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@564c19e] will not be managed by Spring
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select count(*) from BOARD where true and board_kind = 'Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%'))
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String)
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 1
+[16:01:12][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75a79aa0]
+[16:01:12][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:12][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@462e5531] was not registered for synchronization because synchronization is not active
+[16:01:12][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:12][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:12][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@4eff0f4f] will not be managed by Spring
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: select board_no , board_title, board_con , member_id , board_views , board_date from BOARD where true and board_type ='Y' and board_kind ='Q' AND (board_title LIKE concat('%', ?, '%') OR board_con LIKE concat('%', ?, '%')) order by board_date desc, board_no desc limit ? offset ?
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-==> Parameters: (String), (String), 10(Integer), 0(Integer)
+[16:01:12][DEBUG](BaseJdbcLogger.java:137)-<==      Total: 10
+[16:01:12][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@462e5531]
+[16:01:19][DEBUG](Logger.java:49)-Creating a new SqlSession
+[16:01:19][DEBUG](Logger.java:49)-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@691fde19] was not registered for synchronization because synchronization is not active
+[16:01:19][DEBUG](DataSourceUtils.java:115)-Fetching JDBC Connection from DataSource
+[16:01:19][DEBUG](DriverManagerDataSource.java:144)-Creating new JDBC DriverManager Connection to [jdbc:postgresql://localhost:5432/Lookst]
+[16:01:19][DEBUG](Logger.java:49)-JDBC Connection [org.postgresql.jdbc.PgConnection@9302156] will not be managed by Spring
+[16:01:19][DEBUG](BaseJdbcLogger.java:137)-==>  Preparing: INSERT INTO board (board_title, board_con, member_id, board_secret, board_type, board_views, board_kind, board_date) VALUES('?', '?', '?', false, 'Y', 0, 'Q', CURRENT_TIMESTAMP);
+[16:01:19][DEBUG](Logger.java:49)-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@691fde19]
+[16:03:28][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:03:29][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@22512f8a]
+[16:03:29][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:03:29][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:03:29][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[16:03:29][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:03:29][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:03:29][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:03:29][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 556 ms
+[16:03:29][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[16:03:29][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[16:03:29][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[16:03:29][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[16:03:29][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[16:03:29][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@5ad175a0]
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:03:29][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:03:29][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:03:29][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:03:29][INFO ](FrameworkServlet.java:547)-Completed initialization in 547 ms
+[16:04:16][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:04:16][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4b6327f6]
+[16:04:16][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:04:16][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:04:16][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[16:04:16][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:04:16][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:04:16][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:16][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 560 ms
+[16:04:16][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[16:04:16][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[16:04:16][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[16:04:16][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[16:04:16][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[16:04:16][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:16][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@7291bec8]
+[16:04:17][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:04:17][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:04:17][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:04:17][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:17][INFO ](FrameworkServlet.java:547)-Completed initialization in 590 ms
+[16:04:40][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:04:40][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@564d3cff]
+[16:04:40][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:04:40][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:04:40][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis-config.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\admin\adminMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\boardMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\board\magazineMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\member\memberMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\post\postMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\seller\sellerMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\shop\shopMapper.xml]'
+[16:04:40][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\LookSt\WEB-INF\classes\mapper\sns\snsMapper.xml]'
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:04:40][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:04:40][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:40][INFO ](ContextLoader.java:307)-Root WebApplicationContext initialized in 573 ms
+[16:04:40][INFO ](FrameworkServlet.java:525)-Initializing Servlet 'appServlet'
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[16:04:40][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.active]
+[16:04:40][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[16:04:40][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[16:04:40][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.profiles.default]
+[16:04:40][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:40][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@46f8486a]
+[16:04:41][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[16:04:41][DEBUG](JndiLocatorSupport.java:102)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[16:04:41][DEBUG](JndiTemplate.java:155)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[16:04:41][DEBUG](JndiPropertySource.java:101)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[16:04:41][INFO ](FrameworkServlet.java:547)-Completed initialization in 532 ms
+[16:05:15][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:05:15][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@70a71db3]
+[16:05:15][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:05:15][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:05:15][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+[16:05:15][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4769)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5231)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3819)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:311)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5614)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:590)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 29 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:587)
+	... 32 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:177)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:110)
+	... 34 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:170)
+	... 35 more
+[16:05:40][INFO ](ContextLoader.java:271)-Root WebApplicationContext: initialization started
+[16:05:41][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@fcdad9a]
+[16:05:41][DEBUG](DriverManagerDataSource.java:134)-Loaded JDBC driver: org.postgresql.Driver
+[16:05:41][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[16:05:41][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+[16:05:41][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4769)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5231)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:590)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 53 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:587)
+	... 56 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'PostDto'. Cause: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:177)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:110)
+	... 58 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: kr.co.lookst.post.domain.PostDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:170)
+	... 59 more

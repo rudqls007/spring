@@ -59,4 +59,11 @@ public class CommentServiceImpl implements CommentService {
 		return commentDao.insert(commentDto);											// commentDto를 insert
 	}
 
+
+
+	@Override
+	public int modify(CommentDto commentdto) throws Exception {
+		return commentDao.update(commentdto);
+	}
+
 }
